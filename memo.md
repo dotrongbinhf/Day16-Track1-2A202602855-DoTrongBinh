@@ -4,7 +4,7 @@
 
 **Vì sao chọn sản phẩm này:** Claude có AI trực tiếp thực hiện việc đọc, viết và phân tích; nguồn công khai đủ để dựng hơn 6 mốc quyết định. Memo tập trung vào sự chuyển dịch từ trả lời câu hỏi sang hoàn thành công việc tri thức.
 
-**Ngày chốt phân tích:** 03/10/2026. Phạm vi: trợ lý Claude trên web/desktop; model và API được xét khi mở khả năng làm việc mới. Dữ kiện có link trực tiếp trong memo; nguyên lý, JTBD và dự đoán là phân tích do AI đề xuất, chưa có xác nhận phán đoán cá nhân của người học.
+**Ngày chốt phân tích:** 03/10/2026. Phạm vi: trợ lý Claude trên web/desktop; model và API được xét khi mở khả năng làm việc mới. Dữ kiện có link trực tiếp trong memo. AI hỗ trợ nghiên cứu và đề xuất bản phân tích ban đầu; tôi đã đọc, xác nhận và chỉnh sửa câu chữ cùng một số nội dung trước khi hoàn thiện bài.
 
 **Nguồn khai phá CP0:** AI đã mở [release notes chính thức](https://support.claude.com/en/articles/12138966-release-notes), [trang launch Product Hunt](https://www.producthunt.com/products/claude/launches/claude-sonnet-5) và [phỏng vấn founder Dario Amodei](https://lexfridman.com/dario-amodei-transcript), nghiên cứu 33 mốc ứng viên rồi chọn 8 mốc dưới đây.
 
@@ -73,15 +73,17 @@ Chốt ngày **03/10/2026**; đánh giá trong **03/04–03/10/2027**, hạn cu�
 
 **§4. AI Log**
 
-AI ở đây là **Codex trong hội thoại này**. Cột cuối phân biệt kiểm tra do AI đã thực hiện với việc người học chưa xác nhận; không coi AI tự kiểm tra là kiểm chứng cá nhân độc lập.
+AI ở đây là **Codex trong hội thoại này**. Tôi chọn sản phẩm, đọc và xác nhận bản phân tích, chỉnh sửa câu chữ cùng một số nội dung, đồng thời quyết định phạm vi bài nộp. AI hỗ trợ tìm thông tin, dẫn link nguồn, tổng hợp, gợi ý insight và soạn bản nháp. Việc tôi xác nhận nội dung không đồng nghĩa đã tự mở và đối chiếu từng link; các bước kiểm tra nguồn do AI thực hiện được ghi riêng dưới đây.
 
 | Việc | AI làm hay bạn làm? | Bạn kiểm chứng/phán đoán lại thế nào? |
 |---|---|---|
-| Chọn sản phẩm | **Bạn chỉ định Claude**; AI đề xuất phạm vi. | AI mở nguồn ra mắt và kiểm tra tiêu chí có AI, đủ mốc, use case rõ. Bạn chưa xác nhận tự đối chiếu nguồn. |
-| Gom 33 mốc ứng viên | **AI** tìm, mở và đọc nguồn. | AI đối chiếu link gốc, phân biệt launch/rollout, preview/GA; memo giữ nguồn cho các mốc được chọn và ghi chênh lệch ngày ở chú thích §1. Không khai bạn đã tự mở. |
-| Chọn 8 mốc và revert nguyên lý | **AI** chọn mốc, viết bối cảnh, loại ứng viên và map khái niệm. | AI đối chiếu nguồn và tách dữ kiện/suy luận; không đánh đồng context x10 với năng suất x10 hay workflow với moat đã chứng minh. Bạn chưa đối chiếu bài học. |
-| Tệp user, JTBD, 4 forces | **AI** đọc Reddit, case khách hàng và review trái chiều; đề xuất cách diễn đạt. | AI ghi rõ tự khai/case nhà sản xuất, workflow cũ suy luận, lực giữ chưa đo. Chưa phỏng vấn hoặc dùng thử; bạn chưa xác nhận phán đoán. |
-| Ba dự đoán | **AI** lập luận và chọn dự đoán tự tin nhất. | AI mở nguồn hiện trạng, loại khả năng đã có, đặt hạn và điều kiện bác bỏ. Đây chưa phải dự đoán do bạn tự bảo vệ. |
-| Biên tập và kiểm tra CP4 | **AI** rút gọn và hoàn thiện một file `memo.md` theo yêu cầu nộp cá nhân. | AI kiểm tra 4 phần, 8 mốc, 3 dự đoán × 2 dòng, đủ ô AI Log và link nguồn trực tiếp; loại liên kết phụ thuộc file phụ. Họ tên chưa được cung cấp. |
+| Chọn sản phẩm và phạm vi bài nộp | **Tôi** chọn Claude và yêu cầu bài cá nhân, chỉ nộp `memo.md`; **AI hỗ trợ** đối chiếu tiêu chí và tổ chức bài. | Tôi xác nhận lựa chọn sản phẩm và yêu cầu bỏ file phụ. AI kiểm tra nguồn công khai cho tiêu chí có AI, đủ mốc và use case rõ. |
+| Tìm thông tin và dẫn nguồn | **AI hỗ trợ** tìm, mở và tổng hợp nguồn; nghiên cứu 33 mốc ứng viên. | AI đối chiếu link gốc, phân biệt launch/rollout và preview/GA; giữ nguồn cho 8 mốc được chọn. Tôi đã đọc bản tổng hợp; ngày Artifacts còn chưa chốt được chính xác nên giữ chú thích. |
+| Dựng timeline và gợi ý nguyên lý | **AI** đề xuất 8 mốc, bối cảnh và cách map nguyên lý; **tôi** đọc và xác nhận bản phân tích. | Tôi rà soát nội dung trong quá trình đọc và biên tập. AI hỗ trợ tách dữ kiện khỏi suy luận: context x10 chưa chứng minh năng suất x10, workflow chưa chứng minh moat. |
+| Phân tích user, JTBD và 4 forces | **AI hỗ trợ** tìm case/review, gợi ý insight và soạn phân tích; **tôi** đọc, xác nhận nội dung bài. | AI ghi rõ giới hạn của Reddit, case do Anthropic xuất bản và workflow cũ suy luận. Bài giữ các giới hạn này; chưa có phỏng vấn, thử nghiệm trực tiếp hoặc đo retention. |
+| Xây dựng ba dự đoán | **AI** đề xuất dự đoán, lập luận và mức tự tin; **tôi** đọc và xác nhận phần phân tích trước khi hoàn thiện. | AI kiểm tra hiện trạng để tránh dự đoán điều đã có, bổ sung thời hạn và điều kiện bác bỏ. Việc xác nhận không biến dự đoán thành dữ kiện hay roadmap chính thức. |
+| Chỉnh sửa câu chữ | **Tôi** trực tiếp biên tập câu chữ; **AI hỗ trợ** bản nháp và cách tổ chức ý. | Tôi đọc lại và chỉnh cách diễn đạt trong memo. AI không ghi thay danh sách câu cụ thể vì tôi chưa cung cấp chi tiết các thay đổi. |
+| Rà soát và chỉnh sửa nội dung | **Tôi** đọc, xác nhận và điều chỉnh một số nội dung; **AI hỗ trợ** thông tin, link nguồn và góc nhìn để tham khảo hoặc kiểm chứng. | Tôi xác nhận đã thực hiện bước rà soát và chỉnh sửa. Log ghi nhận ở mức này, không mặc định tôi đã tự tìm mọi nguồn, chọn lại toàn bộ mốc hoặc lập luận hoàn toàn độc lập. |
+| Hoàn thiện cấu trúc và AI Log | **Tôi** quyết định phạm vi nộp và yêu cầu cập nhật vai trò; **AI hỗ trợ** sửa file, kiểm tra cấu trúc và khai báo đóng góp. | AI kiểm tra đủ 4 phần, 8 mốc, 3 dự đoán kèm lập luận và các ô AI Log; cập nhật việc tôi đã đọc, xác nhận, chỉnh sửa, đồng thời giữ rõ vai trò AI trong bản nháp ban đầu. |
 
-**Phản biện CP4:** AI làm thay nhiều nhất ở chuỗi suy luận: chọn mốc → diễn giải nguyên lý → đề xuất JTBD → dự đoán. Chưa có bằng chứng người học tự giải thích được khi bỏ phần đó. Khung để tự bảo vệ bài là: vì sao Artifacts khác tạo file; vì sao workflow có thể giữ tệp vận hành; và điều gì làm dự đoán GA sai. Không khai việc này đã được thực hiện.
+**Phản biện CP4:** AI đóng góp nhiều nhất ở nghiên cứu và chuỗi lập luận ban đầu: chọn mốc → diễn giải nguyên lý → đề xuất JTBD → dự đoán. Tôi đã đọc, xác nhận và chỉnh sửa bài; phần tự giải thích không nhìn bản nháp chưa được ghi nhận trong log. Ba ý để tự bảo vệ là: Artifacts phục vụ cộng tác trong Claude, tạo file phục vụ bàn giao; workflow đã thiết lập có thể tạo chi phí chuyển đổi; dự đoán GA phụ thuộc chất lượng đầu ra và ưu tiên Enterprise. Đây là lập luận cần đánh giá, không phải kết luận được bảo đảm chỉ vì AI đề xuất.
