@@ -1,10 +1,12 @@
 # Memo Teardown — Claude (Anthropic)
 
-**Họ tên:** …
+**Họ tên:** Đỗ Trọng Bình - 2A202602855
 
 **Vì sao chọn sản phẩm này:** Claude có AI trực tiếp thực hiện việc đọc, viết và phân tích; nguồn công khai đủ để dựng hơn 6 mốc quyết định. Memo tập trung vào sự chuyển dịch từ trả lời câu hỏi sang hoàn thành công việc tri thức.
 
-**Ngày chốt phân tích:** 03/10/2026. Phạm vi: trợ lý Claude trên web/desktop; model và API được xét khi mở khả năng làm việc mới. [Kho nguồn và bản phân tích chi tiết](research-notes.md) lưu 33 mốc ứng viên. Dữ kiện có link; nguyên lý, JTBD và dự đoán là phân tích do AI đề xuất, chưa có xác nhận phán đoán cá nhân của người học.
+**Ngày chốt phân tích:** 03/10/2026. Phạm vi: trợ lý Claude trên web/desktop; model và API được xét khi mở khả năng làm việc mới. Dữ kiện có link trực tiếp trong memo; nguyên lý, JTBD và dự đoán là phân tích do AI đề xuất, chưa có xác nhận phán đoán cá nhân của người học.
+
+**Nguồn khai phá CP0:** AI đã mở [release notes chính thức](https://support.claude.com/en/articles/12138966-release-notes), [trang launch Product Hunt](https://www.producthunt.com/products/claude/launches/claude-sonnet-5) và [phỏng vấn founder Dario Amodei](https://lexfridman.com/dario-amodei-transcript), nghiên cứu 33 mốc ứng viên rồi chọn 8 mốc dưới đây.
 
 **§1. Timeline các cập nhật lớn**
 
@@ -33,7 +35,7 @@ Hai tệp dưới đây là lát cắt có trường hợp cụ thể, chưa ch�
 | Người cụ thể | **u/lulz_lurker**, [Reddit 07/2023](https://www.reddit.com/r/ChatGPT/comments/152e374/claudeai_is_nice/): hồ sơ giảng dạy 7 phần, 25 trang. Danh tính tự khai, chưa xác minh ngoài Reddit. | **Chris Scott, COO HireEffect, Dallas**, [case 15/09/2026](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs): tìm giao dịch gây lệch sổ; công ty dựng báo cáo từ QuickBooks/CRM. Case do Anthropic xuất bản. |
 | JTBD chính | “Khi nộp hồ sơ giảng dạy nhiều phần, tôi muốn biến kinh nghiệm trong CV thành câu trả lời phù hợp yêu cầu tuyển dụng, để hoàn thành hồ sơ nhất quán và kiểm tra trước khi nộp.” | “Khi số liệu khách hàng không khớp hoặc đến kỳ báo cáo, tôi muốn tìm nguyên nhân và tổng hợp kết quả dễ giải thích, để bàn giao đúng hạn và quyết định bước xử lý.” |
 | Trước đó họ làm bằng cách nào | Suy luận: tự đọc, viết và sửa từng phần; hoặc thử ChatGPT theo từng yêu cầu. Nguồn không mô tả đầy đủ workflow cũ. | Nguồn nói tác vụ báo cáo tháng từng mất hai giờ. Suy luận: lấy dữ liệu từng hệ thống rồi đối chiếu/tổng hợp thủ công; chưa xác nhận mọi thao tác. |
-| Cột mốc mở đường ở §1 | **100K context (05/2023)** mở xử lý tài liệu dài; quyền tiếp cận web còn đến từ Claude 2 (07/2023) trong kho nguồn, khác mốc API. | **Projects (06/2024), Research (04/2025), tạo file (09/2025), Cowork (01/2026)** tạo nền tảng xử lý việc lặp lại. Không khẳng định HireEffect dùng đủ bốn tính năng. |
+| Cột mốc mở đường ở §1 | **100K context (05/2023)** mở xử lý tài liệu dài; quyền tiếp cận web còn đến từ [Claude 2 (07/2023)](https://www.anthropic.com/news/claude-2), khác mốc API. | **Projects (06/2024), Research (04/2025), tạo file (09/2025), Cowork (01/2026)** tạo nền tảng xử lý việc lặp lại. Không khẳng định HireEffect dùng đủ bốn tính năng. |
 
 **Dịch chuyển tệp:** Từ người tự ghép prompt cho một việc cá nhân sang người cần quy trình lặp lại và đầu ra bàn giao cho khách hàng. Cowork là bước nối trực tiếp vì mở thực hiện nhiều bước ngoài coding; hai case cho thấy mở rộng cách dùng, chưa chứng minh tệp cũ bị thay thế.
 
@@ -76,10 +78,10 @@ AI ở đây là **Codex trong hội thoại này**. Cột cuối phân biệt k
 | Việc | AI làm hay bạn làm? | Bạn kiểm chứng/phán đoán lại thế nào? |
 |---|---|---|
 | Chọn sản phẩm | **Bạn chỉ định Claude**; AI đề xuất phạm vi. | AI mở nguồn ra mắt và kiểm tra tiêu chí có AI, đủ mốc, use case rõ. Bạn chưa xác nhận tự đối chiếu nguồn. |
-| Gom 33 mốc ứng viên | **AI** tìm, mở và đọc nguồn. | AI giữ link gốc, phân biệt launch/rollout, preview/GA; ghi chênh lệch ngày trong kho nguồn. Không khai bạn đã tự mở. |
+| Gom 33 mốc ứng viên | **AI** tìm, mở và đọc nguồn. | AI đối chiếu link gốc, phân biệt launch/rollout, preview/GA; memo giữ nguồn cho các mốc được chọn và ghi chênh lệch ngày ở chú thích §1. Không khai bạn đã tự mở. |
 | Chọn 8 mốc và revert nguyên lý | **AI** chọn mốc, viết bối cảnh, loại ứng viên và map khái niệm. | AI đối chiếu nguồn và tách dữ kiện/suy luận; không đánh đồng context x10 với năng suất x10 hay workflow với moat đã chứng minh. Bạn chưa đối chiếu bài học. |
 | Tệp user, JTBD, 4 forces | **AI** đọc Reddit, case khách hàng và review trái chiều; đề xuất cách diễn đạt. | AI ghi rõ tự khai/case nhà sản xuất, workflow cũ suy luận, lực giữ chưa đo. Chưa phỏng vấn hoặc dùng thử; bạn chưa xác nhận phán đoán. |
 | Ba dự đoán | **AI** lập luận và chọn dự đoán tự tin nhất. | AI mở nguồn hiện trạng, loại khả năng đã có, đặt hạn và điều kiện bác bỏ. Đây chưa phải dự đoán do bạn tự bảo vệ. |
-| Biên tập và kiểm tra CP4 | **AI** rút gọn, lưu bản chi tiết và kiểm tra cấu trúc/bản in. | AI kiểm tra 4 phần, 8 mốc, 3 dự đoán × 2 dòng, đủ ô AI Log và độ dài bản in; không đổi dữ kiện để ép số trang. Họ tên chưa được cung cấp. |
+| Biên tập và kiểm tra CP4 | **AI** rút gọn và hoàn thiện một file `memo.md` theo yêu cầu nộp cá nhân. | AI kiểm tra 4 phần, 8 mốc, 3 dự đoán × 2 dòng, đủ ô AI Log và link nguồn trực tiếp; loại liên kết phụ thuộc file phụ. Họ tên chưa được cung cấp. |
 
 **Phản biện CP4:** AI làm thay nhiều nhất ở chuỗi suy luận: chọn mốc → diễn giải nguyên lý → đề xuất JTBD → dự đoán. Chưa có bằng chứng người học tự giải thích được khi bỏ phần đó. Khung để tự bảo vệ bài là: vì sao Artifacts khác tạo file; vì sao workflow có thể giữ tệp vận hành; và điều gì làm dự đoán GA sai. Không khai việc này đã được thực hiện.
